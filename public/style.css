@@ -1,0 +1,200 @@
+/* Basic things for the body- bg image with a white gradient of 0.7 transparency over it to make it lighter. */
+body {
+  background-image: linear-gradient(rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.7)),
+                  url("bgs/bg-water-tile-big.png");
+  font-family: "chams";
+  font-size: 1em;
+  color: #704D41;
+  margin-left: 25%;
+  margin-right: 25%
+}
+
+/*I'm making a navigation panel, so I'm setting the header to 'grid'.*/
+header {
+  display:grid;
+  grid-template-rows: 1.5fr 1fr;
+  align-items: center;
+  max-width: 1170px;
+}
+
+/*I'll set a default hr for the whole site.*/
+hr {
+  border: 1px dashed #bf7398;
+  margin-right: 25px
+}
+
+/*Art Gallery bg.*/
+.artgallery-bg {
+   background-image: linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8)), 
+                    url("bgs/bg-abstract-tile.png");
+}
+
+/* Wrapper. I finally made a freaking wrapper. */
+.wrapper {
+  max-width: 1170px;
+  margin: 0 auto;
+}
+
+/* Box around text in the body */
+.body-box {
+  background-color: #fffafa;
+  padding: 30px;
+  padding-top: 10px;
+  padding-bottom: 30px;
+  border-radius: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 50px;
+}
+
+h1 {
+  margin: 30px;
+  font-family: "babydoll";
+  text-align: center;
+  font-size: 3em;
+}
+
+.signature {
+  color: #cc8b86;
+  font-family: "babydoll";
+  font-size: 1.3em;
+  display: flex;
+    flex-direction: row;
+  justify-content: flex-end;
+  gap: 10px;
+  margin-right: 10%
+}
+
+/* Only to be used on the main page for the 'logo' until I make one that's more official (and figure out how to align everything in the center). */
+
+.logo_main {
+  margin-bottom: -5px;
+  font-size: 3.5em;
+}
+
+.logo_sub {
+  font-size: 1.5em;
+  margin-top: -5px;
+  margin-bottom: 10px;
+  text-align: center
+}
+
+.logo_main_static {
+  margin-bottom: -5px;
+  margin-top: 35px;
+  font-size: 3.5em;
+}
+
+.logo_sub_static {
+  font-size: 1.5em;
+  margin-top: -5px;
+  margin-bottom: 30px;
+  text-align: center
+}
+
+/* AI generated CSS to make text float up and down a bit */
+.float {
+  animation: float alternate ease-in-out 3s infinite;
+}
+
+@keyframes float {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(10px);
+  }
+}
+
+/* Link formatting- color changes upon visiting the link. When hovering over the link, the underlining disappears. */
+
+a:link {
+  color: #a9bf91
+}
+
+a:visited {
+  color: #6B705C
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+/* Styling for tables. */
+table {
+  margin: 0 auto;
+  border-collapse: collapse;
+  width: 85%;
+}
+
+th, td {
+  padding: 10px;
+  text-align: left;
+  border: 1px dotted #cc8b86;
+}
+
+th {
+  font-weight: bold;
+  background-color: #FFF2E0;
+}
+
+/* Flexbox!!! */
+.flexbox {
+  display: flex;
+  justify-content: flex-start;
+  gap: 10px
+}
+
+#gallery_flexbox {
+  display: flex;
+    flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Defining the font faces I use across the website. */
+/* Babydoll is the face I use for headings ONLY- it's not easy on the eyes for longer strings of text. */
+@font-face {
+  font-family: "babydoll";
+  src: url("/babydoll-kit/baby_doll-webfont.woff") format("woff"),
+       url("/babydoll-kit/baby_doll-webfont.woff2") format("woff2");
+}
+
+/* Chams is a more legible font that I use for longer strings of text that are smaller in size. Here I define the different versions of the typeface. */
+/* Normal chams font */
+@font-face {
+    font-family: "chams";
+    src: url("chams-kit/chams-webfont.woff2") format("woff2"),
+         url("chams-kit/chams-webfont.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* Bold chams font */
+@font-face {
+    font-family: "chams";
+    src: url("chams-kit/chamsbold-webfont.woff2") format("woff2"),
+         url("chams-kit/chamsbold-webfont.woff") format("woff");
+    font-weight: bold;
+    font-style: normal;
+}
+
+/* Italic chams font */
+@font-face {
+    font-family: "chams";
+    src: url("chams-kit/chamsitalic-webfont.woff2") format("woff2"),
+         url("chams-kit/chamsitalic-webfont.woff") format("woff");
+    font-weight: normal;
+    font-style: italic;
+}
+
+/* Bold talic chams font */
+@font-face {
+    font-family: "chams";
+    src: url("chams-kit/chamsbolditalic-webfont.woff2") format("woff2"),
+         url("chams-kit/chamsbolditalic-webfont.woff") format("woff");
+    font-weight: bold;
+    font-style: italic;
+}
+
+
