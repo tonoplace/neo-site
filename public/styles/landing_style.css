@@ -9,33 +9,6 @@ body {
     margin-right: 25%
   }
   
-  /* Only to be used on the main page for the 'logo' until I make one that's more official (and figure out how to align everything in the center). */
-  
-  .logo_main {
-    margin-bottom: -5px;
-    font-size: 3.5em;
-  }
-  
-  .logo_sub {
-    font-size: 1.5em;
-    margin-top: -5px;
-    margin-bottom: 10px;
-    text-align: center
-  }
-  
-  .logo_main_static {
-    margin-bottom: -5px;
-    margin-top: 35px;
-    font-size: 3.5em;
-  }
-  
-  .logo_sub_static {
-    font-size: 1.5em;
-    margin-top: -5px;
-    margin-bottom: 30px;
-    text-align: center
-  }
-  
   /* AI generated CSS to make text float up and down a bit */
   .float {
     animation: float alternate ease-in-out 3s infinite;
