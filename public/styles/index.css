@@ -7,11 +7,11 @@
       "header index_body ."
       ". index_body ."; 
     width: 75%; 
+    align-self: center;
   }
   .index_body { grid-area: index_body; }
   .header { grid-area: header; }
 
 .index_grid > div {
-    background-color:blanchedalmond;
-
+    background-color:rgb(255, 244, 227);
 }
