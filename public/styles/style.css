@@ -177,38 +177,38 @@ th {
 /* Chams is a more legible font that I use for longer strings of text that are smaller in size. Here I define the different versions of the typeface. */
 /* Normal chams font */
 @font-face {
-    font-family: "chams";
-    src: url(".../fonts/chams-kit/chams-webfont.woff2") format("woff2"),
-         url(".../fonts/chams-kit/chams-webfont.woff") format("woff");
-    font-weight: normal;
-    font-style: normal;
+  font-family: "chams";
+  src: url("chams-kit/chams-webfont.woff2") format("woff2"),
+       url("chams-kit/chams-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
 }
 
 /* Bold chams font */
 @font-face {
-    font-family: "chams";
-    src: url(".../fonts/chams-kit/chamsbold-webfont.woff2") format("woff2"),
-         url(".../fonts/chams-kit/chamsbold-webfont.woff") format("woff");
-    font-weight: bold;
-    font-style: normal;
+  font-family: "chams";
+  src: url("chams-kit/chamsbold-webfont.woff2") format("woff2"),
+       url("chams-kit/chamsbold-webfont.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
 }
 
 /* Italic chams font */
 @font-face {
-    font-family: "chams";
-    src: url(".../fonts/chams-kit/chamsitalic-webfont.woff2") format("woff2"),
-         url(".../fonts/chams-kit/chamsitalic-webfont.woff") format("woff");
-    font-weight: normal;
-    font-style: italic;
+  font-family: "chams";
+  src: url("chams-kit/chamsitalic-webfont.woff2") format("woff2"),
+       url("chams-kit/chamsitalic-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: italic;
 }
 
 /* Bold talic chams font */
 @font-face {
-    font-family: "chams";
-    src: url(".../fonts/chams-kit/chamsbolditalic-webfont.woff2") format("woff2"),
-         url(".../fonts/chams-kit/chamsbolditalic-webfont.woff") format("woff");
-    font-weight: bold;
-    font-style: italic;
+  font-family: "chams";
+  src: url("chams-kit/chamsbolditalic-webfont.woff2") format("woff2"),
+       url("chams-kit/chamsbolditalic-webfont.woff") format("woff");
+  font-weight: bold;
+  font-style: italic;
 }
 
 
