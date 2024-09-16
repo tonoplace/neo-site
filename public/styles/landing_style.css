@@ -9,6 +9,12 @@ body {
     margin-right: 25%
   }
   
+  h1 {
+    font-family: "babydoll";
+    text-align: center;
+    font-size: 3em;
+  }
+
   /* AI generated CSS to make text float up and down a bit */
   .float {
     animation: float alternate ease-in-out 3s infinite;
