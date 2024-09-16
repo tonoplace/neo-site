@@ -35,12 +35,14 @@ body {
   }
   
   /* Link formatting for landing page */
-  #subtitle {
+  a {
     text-decoration: none;
     color:#704D41;
-    font-family: "chams";
+    
   }
 
-  
+  a.subtitle{
+    font-family: "chams";
+  }
   
   
