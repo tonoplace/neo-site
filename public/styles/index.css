@@ -14,4 +14,9 @@
 
 .index_grid > div {
     background-color:rgb(255, 244, 227);
+    border-radius: 5px;
+    padding: 5px 5px 5px 5px;
+    border-image:  url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFQAAABUCAYAAAAcaxDBAAACiklEQVR4Xu2cy3XbQBAEqaOjUArKPwqn4Ch8tK4yDqxX6gYeRbau891Cz2JJUHi77a9K4K2abcluA1oWwYAOaJlAOd0UOqBlAuV0U+hPB/r3959/X9fw6+P97kU927/M8/pj09mAbP4BLSt6QF8NaDpyFE92UlwaT/nrd/m0YYonOy04jaf8AwpbCAE82gf00YHaK0r+Z48o1bf2ukJtA+Q/oERI2gdUAiP3pwdKC0ztBJjsaX2Kp/p6D6WCqZ0aJntan+Kp/oAejk0DepAMAUntdYVSwqPdLsDmP/ofv1+l+mm90z8pDWj7EoUjmLYzhR4eiTw9ULsHWf8UoI23/Vl/PDbZhNbfAkn9bX/Wf0DLj1QG9GqgV49YWs8e29r1UKFpQbsHpfUGtE1QnoPb5afQMlEN1I6w9S+v72brW//4s7wtaP0HtHzsGNAB/U8DuIfSyKb2tiLtsand/4DCD4AJuL4pUcLUPoXKh1oE/OWA2j0p9W8DthfU+uuRTwGlDaaAbX3rP6AnH/PwLj+F3v+3n1ihdgTTEbL1UgGk9bRCbcEBtcTAf0AHNCKAI28VZv2j7r8RbPuz/gNaPkYN6IB+Y86/hNgRtv6o0Kz9Gz7TOTac1tuv717t13epYmhkplBJeEDDTz4WIL1zRF4/vWe391x9U0qBUbwFaL8Mofpkp/4GVD7SGVAJ7HKF0hVq29MFtvuhfHrkKWHbPqBlogM6oF0CqaIonuy0mjSe8tf30LRhiic7LTiNp/wD+uivGUoVQPFkJwWl8ZS/rlAqaBd0tj/1a+0DaomB/4AOaPcVw2We178yuL2AR8t3+cg/GoB2PwNaJjqgA1omUE43hQ5omUA53RRaBvoJCi3Agu/TwDcAAAAASUVORK5CYII=") 28 /  28px / 0 round;
+    border-width:  28px;
+    border-style:  solid;
 }
