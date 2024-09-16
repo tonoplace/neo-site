@@ -13,6 +13,13 @@ body {
     font-family: "babydoll";
     text-align: center;
     font-size: 3em;
+    left: 0;
+    line-height: 200px;
+    margin-top: -100px;
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    width: 100%;
   }
 
   /* AI generated CSS to make text float up and down a bit */
@@ -67,8 +74,8 @@ body {
   /* Normal chams font */
   @font-face {
     font-family: "chams";
-    src: url("chams-kit/chams-webfont.woff2") format("woff2"),
-         url("chams-kit/chams-webfont.woff") format("woff");
+    src: url(".../fonts/chams-kit/chams-webfont.woff2") format("woff2"),
+         url(".../fonts/chams-kit/chams-webfont.woff") format("woff");
     font-weight: normal;
     font-style: normal;
 }
@@ -76,8 +83,8 @@ body {
 /* Bold chams font */
 @font-face {
     font-family: "chams";
-    src: url("chams-kit/chamsbold-webfont.woff2") format("woff2"),
-         url("chams-kit/chamsbold-webfont.woff") format("woff");
+    src: url(".../fonts/chams-kit/chamsbold-webfont.woff2") format("woff2"),
+         url(".../fonts/chams-kit/chamsbold-webfont.woff") format("woff");
     font-weight: bold;
     font-style: normal;
 }
@@ -85,8 +92,8 @@ body {
 /* Italic chams font */
 @font-face {
     font-family: "chams";
-    src: url("chams-kit/chamsitalic-webfont.woff2") format("woff2"),
-         url("chams-kit/chamsitalic-webfont.woff") format("woff");
+    src: url(".../fonts/chams-kit/chamsitalic-webfont.woff2") format("woff2"),
+         url(".../fonts/chams-kit/chamsitalic-webfont.woff") format("woff");
     font-weight: normal;
     font-style: italic;
 }
@@ -94,8 +101,8 @@ body {
 /* Bold talic chams font */
 @font-face {
     font-family: "chams";
-    src: url("chams-kit/chamsbolditalic-webfont.woff2") format("woff2"),
-         url("chams-kit/chamsbolditalic-webfont.woff") format("woff");
+    src: url(".../fonts/chams-kit/chamsbolditalic-webfont.woff2") format("woff2"),
+         url(".../fonts/chams-kit/chamsbolditalic-webfont.woff") format("woff");
     font-weight: bold;
     font-style: italic;
 }
