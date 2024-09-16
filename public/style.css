@@ -24,9 +24,7 @@ hr {
 }
 
 /*Art Gallery bg.*/
-.artgallery-bg {
-   background-image: linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8)), 
-                    url("bgs/bg-abstract-tile.png");
+.artgallery-bg {background-image: linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8)), url("bgs/bg-abstract-tile.png");
 }
 
 /* Wrapper. I finally made a freaking wrapper. */
@@ -106,6 +104,17 @@ h1 {
   }
 }
 
+/* Landing page container to center text in the page. Check if it works on mobile please and thank you. */
+
+.landing_container {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  position: fixed;
+  align-items: center;
+  justify-content: center;
+}
+
 /* Link formatting- color changes upon visiting the link. When hovering over the link, the underlining disappears. */
 
 a:link {
@@ -118,6 +127,10 @@ a:visited {
 
 a:hover {
     text-decoration: none;
+}
+
+#logo_link {
+  text-decoration: none;
 }
 
 /* Styling for tables. */
