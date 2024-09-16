@@ -1,5 +1,8 @@
 body {
   background-color:mistyrose;
+  font-family: "chams";
+  font-size: 1em;
+  color: #704D41;
 }
 
 /*I'm making a navigation panel, so I'm setting the header to 'grid'.*/
