@@ -79,9 +79,17 @@ body {
   /* Chams is a more legible font that I use for longer strings of text that are smaller in size. Here I define the different versions of the typeface. */
   /* Normal chams font */
   @font-face {
+    font-family: "babydoll";
+    src: url(".../fonts/babydoll-kit/baby_doll-webfont.woff") format("woff"),
+         url(".../fonts/babydoll-kit/baby_doll-webfont.woff2") format("woff2");
+  }
+  
+  /* Chams is a more legible font that I use for longer strings of text that are smaller in size. Here I define the different versions of the typeface. */
+  /* Normal chams font */
+  @font-face {
       font-family: "chams";
-      src: url("chams-kit/chams-webfont.woff2") format("woff2"),
-           url("chams-kit/chams-webfont.woff") format("woff");
+      src: url(".../fonts/chams-kit/chams-webfont.woff2") format("woff2"),
+           url(".../fonts/chams-kit/chams-webfont.woff") format("woff");
       font-weight: normal;
       font-style: normal;
   }
@@ -89,8 +97,8 @@ body {
   /* Bold chams font */
   @font-face {
       font-family: "chams";
-      src: url("chams-kit/chamsbold-webfont.woff2") format("woff2"),
-           url("chams-kit/chamsbold-webfont.woff") format("woff");
+      src: url(".../fonts/chams-kit/chamsbold-webfont.woff2") format("woff2"),
+           url(".../fonts/chams-kit/chamsbold-webfont.woff") format("woff");
       font-weight: bold;
       font-style: normal;
   }
@@ -98,8 +106,8 @@ body {
   /* Italic chams font */
   @font-face {
       font-family: "chams";
-      src: url("chams-kit/chamsitalic-webfont.woff2") format("woff2"),
-           url("chams-kit/chamsitalic-webfont.woff") format("woff");
+      src: url(".../fonts/chams-kit/chamsitalic-webfont.woff2") format("woff2"),
+           url(".../fonts/chams-kit/chamsitalic-webfont.woff") format("woff");
       font-weight: normal;
       font-style: italic;
   }
@@ -107,11 +115,13 @@ body {
   /* Bold talic chams font */
   @font-face {
       font-family: "chams";
-      src: url("chams-kit/chamsbolditalic-webfont.woff2") format("woff2"),
-           url("chams-kit/chamsbolditalic-webfont.woff") format("woff");
+      src: url(".../fonts/chams-kit/chamsbolditalic-webfont.woff2") format("woff2"),
+           url(".../fonts/chams-kit/chamsbolditalic-webfont.woff") format("woff");
       font-weight: bold;
       font-style: italic;
   }
+  
+  
   
   
   
