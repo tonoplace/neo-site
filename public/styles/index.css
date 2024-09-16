@@ -1,0 +1,17 @@
+.index_grid {
+    display: grid; 
+    grid-template-columns: 0.6fr 1fr 0.6fr; 
+    grid-template-rows: 1fr 1fr; 
+    gap: 0.5em 0.5em; 
+    grid-template-areas: 
+      "header index_body ."
+      ". index_body ."; 
+    width: 75%; 
+  }
+  .index_body { grid-area: index_body; }
+  .header { grid-area: header; }
+
+.index_grid > div {
+    background-color:blanchedalmond;
+
+}
