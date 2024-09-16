@@ -1,12 +1,5 @@
-/* Basic things for the body- bg image with a white gradient of 0.7 transparency over it to make it lighter. */
 body {
-  background-image: linear-gradient(rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.7)),
-                  url(".../bgs/bg-water-tile-big.png");
-  font-family: "chams";
-  font-size: 1em;
-  color: #704D41;
-  margin-left: 25%;
-  margin-right: 25%
+  background-color:mistyrose;
 }
 
 /*I'm making a navigation panel, so I'm setting the header to 'grid'.*/
@@ -17,32 +10,9 @@ header {
   max-width: 1170px;
 }
 
-/*I'll set a default hr for the whole site.*/
 hr {
   border: 1px dashed #bf7398;
   margin-right: 25px
-}
-
-/*Art Gallery bg.*/
-.artgallery-bg {background-image: linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8)), url("bgs/bg-abstract-tile.png");
-}
-
-/* Wrapper. I finally made a freaking wrapper. */
-.wrapper {
-  max-width: 1170px;
-  margin: 0 auto;
-}
-
-/* Box around text in the body */
-.body-box {
-  background-color: #fffafa;
-  padding: 30px;
-  padding-top: 10px;
-  padding-bottom: 30px;
-  border-radius: 15px;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 50px;
 }
 
 h1 {
@@ -150,18 +120,4 @@ th, td {
 th {
   font-weight: bold;
   background-color: #FFF2E0;
-}
-
-/* Flexbox!!! */
-.flexbox {
-  display: flex;
-  justify-content: flex-start;
-  gap: 10px
-}
-
-#gallery_flexbox {
-  display: flex;
-    flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
 }
