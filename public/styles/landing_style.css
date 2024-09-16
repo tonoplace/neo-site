@@ -1,8 +1,7 @@
-/* Basic things for the body- bg image with a white gradient of 0.7 transparency over it to make it lighter. */
-html {
-    background-image: linear-gradient(rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.7)), url(".../bgs/bg-water-tile-big.png");
+  body {
+    background-color:mistyrose;
   }
-  
+
   h1 {
     font-family: "babydoll";
     text-align: center;
