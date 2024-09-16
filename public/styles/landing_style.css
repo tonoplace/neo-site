@@ -35,7 +35,8 @@
   }
 
   .landing_box {
-    
+    background-color: ghostwhite;
+    border-radius: 5px;
   }
   
   /* Link formatting for landing page */
