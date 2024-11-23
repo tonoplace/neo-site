@@ -19,7 +19,7 @@
   .header { grid-area: header; }
 
 .index_grid > div {
-    background-color:rgb(255, 244, 227);
+    background-color: ivory;
     border-radius: 5px;
     padding: 5px 30px 5px 30px;
 }
