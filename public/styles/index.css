@@ -4,7 +4,7 @@
     grid-template-rows: 1fr 1fr; 
     gap: 0.5em 0.5em; 
     grid-template-areas: 
-      "header index_body ."
+      "header header header"
       "menu index_body ."; 
     width: 75%; 
     grid-template-rows: 30px auto;
