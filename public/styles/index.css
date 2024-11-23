@@ -5,16 +5,29 @@
     gap: 0.5em 0.5em; 
     grid-template-areas: 
       "header index_body ."
-      ". index_body ."; 
+      "menu index_body ."; 
     width: 75%; 
-    grid-template-rows: 20% auto;
+    grid-template-rows: 30px auto;
     justify-content: center;
   }
-  .index_body { grid-area: index_body; }
-  .header { grid-area: header; }
-
-.index_grid > div {
+  .index_body { 
+    grid-area: index_body;
     background-color: ivory;
     border-radius: 5px;
     padding: 5px 30px 5px 30px;
+  }
+  .header { 
+    grid-area: header;
+
+  }
+
+  .menu {
+    grid-area: menu;
+    background-color: ivory;
+    border-radius: 5px;
+    padding: 5px 30px 5px 30px;
+  }
+
+.index_grid > div {
+    
 }
