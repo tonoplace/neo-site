@@ -7,7 +7,8 @@
       "header index_body ."
       ". index_body ."; 
     width: 75%; 
-    align-self: center;
+    grid-template-rows: 20% auto;
+    justify-content: center;
   }
   .index_body { grid-area: index_body; }
   .header { grid-area: header; }
