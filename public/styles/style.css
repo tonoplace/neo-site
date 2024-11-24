@@ -5,14 +5,6 @@ body {
   color: #704D41;
 }
 
-/*I'm making a navigation panel, so I'm setting the header to 'grid'.*/
-header {
-  display:grid;
-  grid-template-rows: 1.5fr 1fr;
-  align-items: center;
-  max-width: 1170px;
-}
-
 hr {
   border: 1px dashed #bf7398;
   margin-right: 25px
