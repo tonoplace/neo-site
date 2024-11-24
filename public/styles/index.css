@@ -8,6 +8,7 @@
       "menu index_body ."; 
     grid-template-rows: 30px auto;
     justify-content: center;
+    padding: 0.5em;
   }
   .index_body { 
     grid-area: index_body;
