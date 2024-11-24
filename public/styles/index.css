@@ -4,11 +4,11 @@
     grid-template-rows: 1fr 1fr; 
     gap: 0.5em 0.5em; 
     grid-template-areas: 
-      "header header header"
+      "heading heading heading"
       "menu index_body ."; 
     grid-template-rows: 30px auto;
     justify-content: center;
-    padding: 0.5em;
+    margin: 0.5em;
   }
   .index_body { 
     grid-area: index_body;
@@ -16,8 +16,8 @@
     border-radius: 5px;
     padding: 5px 30px 5px 30px;
   }
-  .header { 
-    grid-area: header;
+  .heading { 
+    grid-area: heading;
   }
 
   .menu {
