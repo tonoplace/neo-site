@@ -1,12 +1,14 @@
 .index_grid {
     display: grid; 
     grid-template-columns: 0.6fr 1fr 0.6fr; 
-    grid-template-rows: 1fr 1fr; 
+    grid-template-rows: 0.3fr 1fr; 
     grid-template-areas: 
       "heading heading heading"
       "menu index_body index_body"; 
+    column-gap: 10px;
+    row-gap: 30px;
     justify-content: center;
-    margin: 0.5em;
+    margin: 20px;
   }
   .index_body { 
     grid-area: index_body;
