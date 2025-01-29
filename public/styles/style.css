@@ -1,3 +1,10 @@
+body {
+  background-color:seashell;
+  font-family: "chams";
+  font-size: 1em;
+  color: #704D41;
+}
+
 hr {
   border: 1px dashed #bf7398;
   margin-right: 25px
@@ -47,7 +54,6 @@ h1 {
   text-align: center
 }
 
-/* AI generated CSS to make text float up and down a bit */
 .float {
   animation: float alternate ease-in-out 3s infinite;
 }
@@ -61,35 +67,6 @@ h1 {
   }
 }
 
-/* Landing page container to center text in the page. Check if it works on mobile please and thank you. */
-
-.landing_container {
-  height: 100%;
-  width: 100%;
-  display: flex;
-  position: fixed;
-  align-items: center;
-  justify-content: center;
-}
-
-/* Link formatting- color changes upon visiting the link. When hovering over the link, the underlining disappears. */
-
-a:link {
-  color: #a9bf91
-}
-
-a:visited {
-  color: #6B705C
-}
-
-a:hover {
-    text-decoration: none;
-}
-
-#logo_link {
-  text-decoration: none;
-  color:#704D41
-}
 
 /* Styling for tables. */
 table {

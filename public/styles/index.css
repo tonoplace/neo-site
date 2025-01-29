@@ -40,3 +40,21 @@ body{
     padding: 5px 30px 5px 30px;
   }
 
+/* Link formatting- color changes upon visiting the link. When hovering over the link, the underlining disappears. */
+
+a:link {
+  color: #a9bf91
+}
+
+a:visited {
+  color: #6B705C
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+#logo_link {
+  text-decoration: none;
+  color:#704D41
+}
