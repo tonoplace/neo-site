@@ -10,7 +10,7 @@ body{
     grid-template-columns: 1fr 4fr 1fr; 
     grid-template-rows: auto auto; 
     grid-template-areas: 
-      "heading heading heading"
+      ". heading ."
       "menu index_body ."; 
     gap: 1em;
     margin: auto;
