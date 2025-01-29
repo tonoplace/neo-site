@@ -47,7 +47,7 @@
   a.subtitle{
     font-family: "chams";
     margin-bottom: 1em;
-    align-self: center;
+    text-align: center;
   }
   
   #statuscafe {
