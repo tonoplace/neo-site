@@ -51,6 +51,7 @@
   }
   
   #statuscafe {
+    margin: .5em;
     padding: .5em;
     background-color: seashell;
     border: 1px dashed #bf7398;
