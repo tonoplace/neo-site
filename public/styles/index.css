@@ -23,7 +23,7 @@ body{
     background-color: seashell;
     border: 1px dashed #bf7398;
     border-radius: 5px;
-    padding: auto;
+    padding: 0.5em 1em 0.5em auto;
   }
   .heading { 
     grid-area: heading;
@@ -32,6 +32,7 @@ body{
 
   .menu {
     grid-area: menu;
+    max-width: 0.6fr;
     background-color: seashell;
     border: 1px dashed #bf7398;
     border-radius: 5px;
