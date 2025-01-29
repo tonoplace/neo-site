@@ -13,7 +13,14 @@ p {
   font-family: "chams";
   font-size: 1em;
   color: #704D41;
-  margin: auto;
+  text-align: end;
+}
+
+.landing_box span {
+  display: flex;
+  /* flex: 1 or width: 100%; */
+  flex: 1;
+  justify-content: center;
 }
 
   /* AI generated CSS to make text float up and down a bit */
