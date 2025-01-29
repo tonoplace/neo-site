@@ -9,7 +9,7 @@
     row-gap: 30px;
     width: 75%;
     align-items: center;
-    algin-self: center;
+    align-self: center;
     justify-content: center;
     margin: 20px;
   }
@@ -30,3 +30,15 @@
     border-radius: 5px;
     padding: 5px 30px 5px 30px;
   }
+
+#statuscafe {
+    padding: .5em;
+    background-color: seashell;
+    border: 1px dashed #bf7398;
+}
+#statuscafe-username {
+    margin-bottom: .5em;
+}
+#statuscafe-content {
+    margin: 0 1em 0.5em 1em;
+}
