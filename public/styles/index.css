@@ -6,7 +6,6 @@ body{
 }
 
 #index_grid {
-    position: fixed;
     display: grid; 
     grid-template-columns: 1fr 3fr 1fr; 
     grid-template-rows: auto auto; 
@@ -17,7 +16,6 @@ body{
     margin: auto;
     align-content: center;
     align-items: start;
-    align-self: center;
     justify-content: center;
     margin: 0.5em 1em 2em 1em;
   }
