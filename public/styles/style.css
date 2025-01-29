@@ -32,7 +32,7 @@ h1 {
 /* Only to be used on the main page for the 'logo' until I make one that's more official (and figure out how to align everything in the center). */
 
 .logo_main {
-  margin-bottom: -5px;
+  margin-bottom: -1em;
   font-size: 3.5em;
 }
 
