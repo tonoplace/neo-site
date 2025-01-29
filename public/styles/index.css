@@ -35,7 +35,7 @@ body{
 
   #menu {
     grid-area: menu;
-    max-width: 0.6fr;
+    max-width: 25%;
     background-color: seashell;
     border: 1px dashed #bf7398;
     border-radius: 5px;
