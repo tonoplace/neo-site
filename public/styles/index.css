@@ -13,7 +13,7 @@ body{
       ". heading ."
       "menu index_body ."; 
     gap: 1em;
-    margin: auto 0.5fr auto 0.5fr;
+    margin: auto 0.5em auto 0.5em;
     align-content: center;
     align-items: start;
     justify-content: center;
