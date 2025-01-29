@@ -20,7 +20,7 @@ body{
     align-items: start;
     align-self: center;
     justify-content: center;
-    margin: 1em 0.5em 1em 2em;
+    margin: 0.5em 1em 2em 1em;
   }
   #index_body { 
     grid-area: index_body;
