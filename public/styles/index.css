@@ -20,6 +20,7 @@ body{
   }
   #index_body { 
     grid-area: index_body;
+    align-self: stretch;
     background-color: seashell;
     border: 1px dashed #bf7398;
     border-radius: 5px;
@@ -32,7 +33,7 @@ body{
 
   #menu {
     grid-area: menu;
-    height:max-content;
+    align-self: stretch;
     background-color: seashell;
     border: 1px dashed #bf7398;
     border-radius: 5px;
