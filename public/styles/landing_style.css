@@ -48,6 +48,7 @@
 
   a.subtitle{
     font-family: "chams";
+    margin-bottom: 1em;
   }
   
   #statuscafe {
@@ -58,7 +59,11 @@
 }
 #statuscafe-username {
     margin-bottom: .5em;
+    font-family: "babydoll";
+    color: #704D41;
 }
 #statuscafe-content {
     margin: 0 1em 0.5em 1em;
+    font-family: "chams";
+    color: #704D41;
 }
