@@ -21,8 +21,9 @@ body{
   .index_body { 
     grid-area: index_body;
     background-color: seashell;
+    border: 1px dashed #bf7398;
     border-radius: 5px;
-    padding: 5px 30px 5px 30px;
+    padding: auto;
   }
   .heading { 
     grid-area: heading;
@@ -32,6 +33,7 @@ body{
   .menu {
     grid-area: menu;
     background-color: seashell;
+    border: 1px dashed #bf7398;
     border-radius: 5px;
     padding: 5px 30px 5px 30px;
   }
