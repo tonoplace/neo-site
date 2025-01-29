@@ -13,7 +13,7 @@ body{
       ". heading ."
       "menu index_body ."; 
     gap: 1em;
-    margin: auto;
+    margin: auto 0.5fr auto 0.5fr;
     align-content: center;
     align-items: start;
     justify-content: center;
@@ -24,7 +24,7 @@ body{
     background-color: seashell;
     border: 1px dashed #bf7398;
     border-radius: 5px;
-    padding: 1em 1em 1em 1em;
+    padding: 1em 1em 1em 1.5em;
   }
   .heading { 
     grid-area: heading;
