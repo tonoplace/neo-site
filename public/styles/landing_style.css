@@ -16,7 +16,7 @@ p {
   text-align: center;
 }
 
-.landing_box span {
+.landing_container span {
   display: flex;
   /* flex: 1 or width: 100%; */
   flex: 1;
@@ -48,11 +48,6 @@ p {
     align-items: center;
     justify-content: center;
   }
-
-  .landing_box {
-    background-color: ghostwhite;
-    border-radius: 5px;
-  }
   
   /* Link formatting for landing page */
   #logo_link {
@@ -67,7 +62,6 @@ p {
     background-color: seashell;
     border: 1px dashed #bf7398;
     border-radius: 5px;
-    align-self: center;
 }
 #statuscafe-username {
     margin-bottom: .5em;
