@@ -43,7 +43,6 @@
   a {
     text-decoration: none;
     color:#704D41;
-    
   }
 
   a.subtitle{
@@ -56,6 +55,7 @@
     padding: .5em;
     background-color: seashell;
     border: 1px dashed #bf7398;
+    border-radius: 5px;
 }
 #statuscafe-username {
     margin-bottom: .5em;
