@@ -59,6 +59,7 @@ p{
     background-color: seashell;
     border: 1px dashed #bf7398;
     border-radius: 5px;
+    align-self: center;
 }
 #statuscafe-username {
     margin-bottom: .5em;
