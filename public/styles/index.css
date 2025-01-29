@@ -24,7 +24,7 @@ body{
     background-color: seashell;
     border: 1px dashed #bf7398;
     border-radius: 5px;
-    padding: 1em 1em 1em 1.5em;
+    padding: 5px 30px 5px 30px;
   }
   .heading { 
     grid-area: heading;
