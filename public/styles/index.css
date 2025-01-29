@@ -2,7 +2,7 @@ body{
   background-color: mistyrose;
 }
 
-.index_grid {
+#index_grid {
     display: grid; 
     grid-template-columns: 0.6fr 1fr 0.6fr; 
     grid-template-rows: auto auto; 
@@ -18,7 +18,7 @@ body{
     justify-content: center;
     margin: 1em 0.5em 1em 2em;
   }
-  .index_body { 
+  #index_body { 
     grid-area: index_body;
     background-color: seashell;
     border: 1px dashed #bf7398;
@@ -30,7 +30,7 @@ body{
     align-content: center;
   }
 
-  .menu {
+  #menu {
     grid-area: menu;
     max-width: 0.6fr;
     background-color: seashell;
