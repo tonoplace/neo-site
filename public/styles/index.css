@@ -1,7 +1,7 @@
 .index_grid {
     display: grid; 
     grid-template-columns: 0.6fr 1fr 0.6fr; 
-    grid-template-rows: 50px 1fr; 
+    grid-template-rows: auto auto; 
     grid-template-areas: 
       ". heading ."
       "menu index_body ."; 
@@ -9,6 +9,7 @@
     row-gap: 0.5em;
     margin: auto;
     align-content: center;
+    align-items: start;
     align-self: center;
     justify-content: center;
     margin: 1em 0.5em 1em 2em;
