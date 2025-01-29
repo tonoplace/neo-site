@@ -17,6 +17,7 @@ p {
 }
 
 .landing_container span {
+  padding: auto;
   display: flex;
   flex-direction: column;
   /* flex: 1 or width: 100%; */
