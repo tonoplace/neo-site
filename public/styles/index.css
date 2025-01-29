@@ -5,7 +5,7 @@ body{
 #index_grid {
     max-width: 75%;
     display: grid; 
-    grid-template-columns: 0.6fr 1fr 0.6fr; 
+    grid-template-columns: 0.6fr 1fr 0.2fr; 
     grid-template-rows: auto auto; 
     grid-template-areas: 
       ". heading ."
