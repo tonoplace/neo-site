@@ -63,3 +63,10 @@
     font-family: "chams";
     color: #704D41;
 }
+
+p{
+  font-family: "chams";
+  font-size: 1em;
+  color: #704D41;
+  align-self: center;
+}
