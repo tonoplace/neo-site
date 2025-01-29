@@ -9,10 +9,11 @@ h1 {
 }
 
 
-p{
+p {
   font-family: "chams";
   font-size: 1em;
   color: #704D41;
+  align-self: center;
 }
 
   /* AI generated CSS to make text float up and down a bit */
