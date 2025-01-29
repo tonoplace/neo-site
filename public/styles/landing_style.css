@@ -40,15 +40,11 @@
   }
   
   /* Link formatting for landing page */
-  a {
+  #logo_link {
     color:#704D41;
+    text-decoration: none;
   }
 
-  a.subtitle{
-    font-family: "chams";
-    margin-bottom: 1em;
-    text-align: center;
-  }
   
   #statuscafe {
     margin: .5em;
