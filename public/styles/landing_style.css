@@ -18,6 +18,7 @@ p {
 
 .landing_container span {
   display: flex;
+  flex-direction: column;
   /* flex: 1 or width: 100%; */
   flex: 1;
   justify-content: center;
