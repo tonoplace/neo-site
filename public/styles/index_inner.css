@@ -8,10 +8,11 @@ body{
 #index_grid {
     display: grid; 
     grid-template-columns: 1fr 3fr 1fr; 
-    grid-template-rows: 1fr 4fr; 
+    grid-template-rows: 1fr 4fr 1fr; 
     grid-template-areas: 
       ". heading ."
-      "menu index_body ."; 
+      "menu index_body ."
+      "footer footer footer"; 
     gap: 1em;
     margin: auto 2em auto 2em;
     align-content: center;
@@ -39,6 +40,18 @@ body{
     border-radius: 5px;
     padding: 5px 30px 5px 30px;
   }
+
+  footer {
+    grid-area: footer;
+    align-self: stretch;
+    background-color: seashell;
+    border-radius: 5px;
+    border: 1px dashed #bf7398;
+    border-radius: 5px;
+    padding: 5px 30px 5px 30px;
+    align-content: center;
+  }
+
 
 /* Link formatting- color changes upon visiting the link. When hovering over the link, the underlining disappears. */
 
