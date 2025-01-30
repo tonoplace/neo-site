@@ -43,7 +43,7 @@ body{
 
   footer {
     grid-area: footer;
-    align-self: center;
+    align-self: stretch;
     background-color: seashell;
     border-radius: 5px;
     border: 1px dashed #bf7398;
@@ -52,6 +52,9 @@ body{
     align-content: center;
   }
 
+  footer > p {
+    align-self: center;
+  }
 
 /* Link formatting- color changes upon visiting the link. When hovering over the link, the underlining disappears. */
 
