@@ -43,7 +43,7 @@ body{
 
   footer {
     grid-area: footer;
-    align-self: stretch;
+    align-self: center;
     background-color: seashell;
     border-radius: 5px;
     border: 1px dashed #bf7398;
