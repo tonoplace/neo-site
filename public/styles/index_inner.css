@@ -8,13 +8,13 @@ body{
 #index_grid {
     display: grid; 
     grid-template-columns: 1fr 3fr 1fr; 
-    grid-template-rows: 1fr 4fr 1fr; 
+    grid-template-rows: 1fr 4fr 0.6fr; 
     grid-template-areas: 
       ". heading ."
       "menu index_body ."
       "footer footer footer"; 
     gap: 1em;
-    margin: auto 2em auto 2em;
+    margin: auto 2em 2em 2em;
     align-content: center;
     align-items: start;
     justify-content: center;
