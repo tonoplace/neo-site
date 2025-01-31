@@ -49,11 +49,7 @@ body{
     border: 1px dashed #bf7398;
     border-radius: 5px;
     padding: 5px 30px 5px 30px;
-    align-content: center;
-  }
-
-  footer > p {
-    align-self: center;
+    text-align: center;
   }
 
 /* Link formatting- color changes upon visiting the link. When hovering over the link, the underlining disappears. */
