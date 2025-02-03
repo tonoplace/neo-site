@@ -5,6 +5,18 @@ body {
   color: #704D41;
 }
 
+h3 {
+  font-family: "chams";
+  font-size: 1em;
+  color: #704D41;
+}
+
+p{
+  font-family: "noto";
+  font-size: 1em;
+  color: #704D41;
+}
+
 hr {
   border: 1px dashed #bf7398;
   margin-right: 25px
