@@ -19,6 +19,7 @@ body{
       align-items: start;
       justify-content: center;
     }
+    
     #index_body { 
       grid-area: index_body;
       align-self: stretch;
