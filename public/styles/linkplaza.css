@@ -29,20 +29,20 @@
    align-self: stretch;
    display: flex;
    flex-direction: column;
- }
-  
- .float > a{
+}
+ 
+.float > a{
    align-self: center;
- }
-  
-    #menu {
-      grid-area: menu;
-      align-self: stretch;
-      background-color: seashell;
-      border: 1px dashed #bf7398;
-      border-radius: 5px;
-      padding: 5px 30px 5px 30px;
-    }
+}
+
+#menu {
+   grid-area: menu;
+   align-self: stretch;
+   background-color: seashell;
+   border: 1px dashed #bf7398;
+   border-radius: 5px;
+  padding: 5px 30px 5px 30px;
+}
   
 
   

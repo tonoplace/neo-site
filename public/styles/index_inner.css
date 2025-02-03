@@ -13,8 +13,9 @@
     justify-content: center;
   }
  
-.grid_body { 
-  grid-area: index_body;  align-self: stretch;
+.index_body { 
+  grid-area: index_body;  
+  align-self: stretch;
   background-color: seashell;
   border: 1px dashed #bf7398;
   border-radius: 5px;
