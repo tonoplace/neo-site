@@ -14,7 +14,7 @@ body{
       "menu index_body ."
       "footer footer footer"; 
     gap: 0.5em;
-    margin: auto 4em 2em 4em;
+    margin: auto 8em 2em 8em;
     align-content: center;
     align-items: start;
     justify-content: center;
