@@ -5,7 +5,7 @@ body{
     color: #704D41;
   }
   
-  #index_grid {
+  #link_grid {
       display: grid; 
       grid-template-columns: 0.6fr 2fr 0.6fr; 
       grid-template-rows: 0.6fr 3fr 0.3fr; 
@@ -19,7 +19,7 @@ body{
       align-items: start;
       justify-content: center;
     }
-    
+
     #index_body { 
       grid-area: index_body;
       align-self: stretch;

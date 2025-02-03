@@ -1,7 +1,17 @@
+/*TODO: Clean this shit up!!!*/
+
 body {
   background-color:mistyrose;
   font-family: "chams";
   font-size: 1em;
+  color: #704D41;
+}
+
+h1 {
+  margin: 30px;
+  font-family: "babydoll";
+  text-align: center;
+  font-size: 3em;
   color: #704D41;
 }
 
@@ -22,28 +32,46 @@ hr {
   margin-right: 25px
 }
 
-h1 {
-  margin: 30px;
-  font-family: "babydoll";
-  text-align: center;
-  font-size: 3em;
-  color: #704D41;
+/* Styling for tables. */
+table {
+  margin: 0 auto;
+  border-collapse: collapse;
+  width: 85%;
 }
 
-#logo_link {
-  color:#704D41;
-  text-decoration: none;
+th, td {
+  padding: 10px;
+  text-align: left;
+  border: 1px dotted #cc8b86;
 }
 
-.signature {
-  color: #cc8b86;
-  font-family: "babydoll";
-  font-size: 1.3em;
-  display: flex;
-    flex-direction: row;
-  justify-content: flex-end;
-  gap: 10px;
-  margin-right: 10%
+th {
+  font-weight: bold;
+  background-color: #fffbf7;
+}
+
+#index_body { 
+  grid-area: index_body;
+  align-self: stretch;
+  background-color: seashell;
+  border: 1px dashed #bf7398;
+  border-radius: 5px;
+  padding: 5px 30px 5px 30px;
+}
+.heading { 
+  grid-area: heading;
+  align-content: center;
+  align-items: center;
+  align-self: stretch;
+}
+
+.menu {
+  grid-area: menu;
+  align-self: stretch;
+  background-color: seashell;
+  border: 1px dashed #bf7398;
+  border-radius: 5px;
+  padding: 5px 30px 5px 30px;
 }
 
 /* Only to be used on the main page for the 'logo' until I make one that's more official (and figure out how to align everything in the center). */
@@ -83,21 +111,11 @@ h1 {
   }
 }
 
-
-/* Styling for tables. */
-table {
-  margin: 0 auto;
-  border-collapse: collapse;
-  width: 85%;
+.float > a{
+  align-self: center;
 }
 
-th, td {
-  padding: 10px;
-  text-align: left;
-  border: 1px dotted #cc8b86;
-}
-
-th {
-  font-weight: bold;
-  background-color: #fffbf7;
+#logo_link {
+  color:#704D41;
+  text-decoration: none;
 }
