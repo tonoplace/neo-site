@@ -50,7 +50,26 @@ th {
   background-color: #fffbf7;
 }
 
-#index_body { 
+/* Link formatting- color changes upon visiting the link. When hovering over the link, the underlining disappears. */
+  
+a:link {
+  color: #a9bf91
+}
+ 
+a:visited {
+ color: #6B705C
+}
+ 
+a:hover {
+ text-decoration: none;
+}
+
+#logo_link {
+ text-decoration: none;
+ color:#704D41
+}
+
+.grid_body { 
   grid-area: index_body;
   align-self: stretch;
   background-color: seashell;
@@ -58,6 +77,7 @@ th {
   border-radius: 5px;
   padding: 5px 30px 5px 30px;
 }
+
 .heading { 
   grid-area: heading;
   align-content: center;
@@ -72,6 +92,18 @@ th {
   border: 1px dashed #bf7398;
   border-radius: 5px;
   padding: 5px 30px 5px 30px;
+}
+
+footer {
+  grid-area: footer;
+  align-self: stretch;
+  padding: 5px 30px 5px 30px;
+  text-align: center;
+  align-content: center;
+}
+
+footer > p {
+  color: #bf7398;
 }
 
 /* Only to be used on the main page for the 'logo' until I make one that's more official (and figure out how to align everything in the center). */
