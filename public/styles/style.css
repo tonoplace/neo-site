@@ -30,6 +30,11 @@ h1 {
   color: #704D41;
 }
 
+#logo_link {
+  color:#704D41;
+  text-decoration: none;
+}
+
 .signature {
   color: #cc8b86;
   font-family: "babydoll";

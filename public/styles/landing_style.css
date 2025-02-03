@@ -39,12 +39,6 @@ p {
     align-items: center;
   }
   
-  /* Link formatting for landing page */
-  #logo_link {
-    color:#704D41;
-    text-decoration: none;
-  }
-  
   #statuscafe {
     margin: .5em;
     padding: .5em;
