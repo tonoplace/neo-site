@@ -7,7 +7,7 @@ body{
 
 #index_grid {
     display: grid; 
-    grid-template-columns: 1fr 3fr 1fr; 
+    grid-template-columns: 0.6fr 2fr 0.6fr; 
     grid-template-rows: 0.6fr 3fr 0.3fr; 
     grid-template-areas: 
       ". heading ."
