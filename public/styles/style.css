@@ -69,31 +69,6 @@ a:hover {
  color:#704D41
 }
 
-.grid_body { 
-  grid-area: index_body;
-  align-self: stretch;
-  background-color: seashell;
-  border: 1px dashed #bf7398;
-  border-radius: 5px;
-  padding: 5px 30px 5px 30px;
-}
-
-.heading { 
-  grid-area: heading;
-  align-content: center;
-  align-items: center;
-  align-self: stretch;
-}
-
-.menu {
-  grid-area: menu;
-  align-self: stretch;
-  background-color: seashell;
-  border: 1px dashed #bf7398;
-  border-radius: 5px;
-  padding: 5px 30px 5px 30px;
-}
-
 footer {
   grid-area: footer;
   align-self: stretch;
