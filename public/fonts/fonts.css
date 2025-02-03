@@ -54,5 +54,5 @@
 /* Noto serif Japanese supports both roman characters and Japanese. It's a lot more mature. */
 @font-face {
      font-family: "noto";
-     src:url()
+     src:url("noto-kit/NotoSerifJP-VariableFont_wght.ttf") format("ttf");
 }
