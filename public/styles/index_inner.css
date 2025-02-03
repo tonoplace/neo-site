@@ -33,6 +33,10 @@ body{
     align-items: center;
   }
 
+  .heading > logo_main_static {
+    
+  }
+
   #menu {
     grid-area: menu;
     align-self: stretch;
