@@ -33,7 +33,7 @@ body{
     align-items: center;
   }
 
-  .heading > img{
+  .heading > a{
     align-self: center;
   }
 
