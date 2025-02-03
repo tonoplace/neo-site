@@ -44,13 +44,13 @@ body{
   footer {
     grid-area: footer;
     align-self: stretch;
-    background-color: seashell;
-    border-radius: 5px;
-    border: 1px dashed #bf7398;
-    border-radius: 5px;
     padding: 5px 30px 5px 30px;
     text-align: center;
     align-content: center;
+  }
+
+  footer > p {
+    color: #bf7398;
   }
 
 /* Link formatting- color changes upon visiting the link. When hovering over the link, the underlining disappears. */
