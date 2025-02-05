@@ -32,9 +32,9 @@
 }
 
 a {
-   color: #a5a58d;
+   color: #aec5eb;
 }
 
 a:hover {
-   text-decoration: none;
+   text-decoration: underline;
 }
