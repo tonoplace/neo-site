@@ -32,9 +32,17 @@
 }
 
 a {
-   color: #aec5eb;
+   color: #97aacc;
 }
 
 a:hover {
    text-decoration: underline;
+}
+
+body{
+   color: #2c4169;
+}
+
+p {
+   color: #2c4169;
 }
