@@ -41,6 +41,8 @@ a:hover {
 
 body{
    color: #2c4169;
+   background-image: url("plaza_tile_bg.jpg");
+   background-repeat: repeat;
 }
 
 p {
