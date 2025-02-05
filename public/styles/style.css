@@ -2,7 +2,7 @@
 
 body {
   background-color:mistyrose;
-  font-family: "chams";
+  font-family: "noto";
   font-size: 1em;
   color: #704D41;
 }
@@ -54,10 +54,6 @@ th {
   
 a:link {
   color: #a9bf91
-}
- 
-a:visited {
- color: #6B705C
 }
  
 a:hover {
