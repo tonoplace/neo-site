@@ -52,17 +52,22 @@ th {
 
 /* Link formatting- color changes upon visiting the link. When hovering over the link, the underlining disappears. */
   
-a:link {
-  color: #a9bf91
+a {
+  color: #6b705c;
+  text-decoration: none;
 }
  
 a:hover {
- text-decoration: none;
+  text-decoration: underline;
+}
+
+.float > a{
+  align-self: center;
 }
 
 #logo_link {
- text-decoration: none;
- color:#704D41
+  text-decoration: none;
+  color:#704D41
 }
 
 .heading { 
@@ -73,12 +78,12 @@ a:hover {
 }
  
 .menu {
- grid-area: menu;
- align-self: stretch;
- background-color: seashell;
- border: 1px dashed #bf7398;
- border-radius: 5px;
- padding: 5px 30px 5px 30px;
+  grid-area: menu;
+  align-self: stretch;
+  background-color: seashell;
+  border: 1px dashed #bf7398;
+  border-radius: 5px;
+  padding: 5px 30px 5px 30px;
 }
 
 footer {
@@ -128,13 +133,4 @@ footer > p {
   100% {
     transform: translateY(10px);
   }
-}
-
-.float > a{
-  align-self: center;
-}
-
-#logo_link {
-  color:#704D41;
-  text-decoration: none;
 }
