@@ -18,7 +18,8 @@
   background-color: seashell;
   border: 1px dashed #bf7398;
   border-radius: 5px;
-  margin: 0px;
+  margin-top: 0px;
+  margin-bottom: 0px;
 }
 
 iframe {
