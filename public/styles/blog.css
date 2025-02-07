@@ -21,7 +21,8 @@
   border-radius: 5px;
 }
 
-.blogframe {
+iframe {
+  border: none;
   grid-area: blogframe;
   align-self: stretch;
   grid-area: index_body;  
