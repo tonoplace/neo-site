@@ -1,0 +1,62 @@
+/*TODO: Clean this shit up!!!*/
+
+body {
+  background-color: seashell;
+  font-family: "noto";
+  font-size: 1em;
+  color: #704D41;
+}
+
+h1 {
+  margin: 30px;
+  font-family: "babydoll";
+  text-align: center;
+  font-size: 3em;
+  color: #704D41;
+}
+
+h3 {
+  font-family: "chams";
+  font-size: 1em;
+  color: #704D41;
+}
+
+p{
+  font-family: "noto";
+  font-size: 1em;
+  color: #704D41;
+}
+
+hr {
+  border: 1px dashed #bf7398;
+  margin-right: 25px
+}
+
+/* Styling for tables. */
+table {
+  margin: 0 auto;
+  border-collapse: collapse;
+  width: 85%;
+}
+
+th, td {
+  padding: 10px;
+  text-align: left;
+  border: 1px dotted #cc8b86;
+}
+
+th {
+  font-weight: bold;
+  background-color: #fffbf7;
+}
+
+/* Link formatting- color changes upon visiting the link. When hovering over the link, the underlining disappears. */
+  
+a {
+  color: #6b705c;
+  text-decoration: none;
+}
+ 
+a:hover {
+  text-decoration: underline;
+}

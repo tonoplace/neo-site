@@ -1,23 +1,32 @@
 .blog_grid {
-    display: grid; 
-    grid-template-columns: 0.6fr 2fr; 
-    grid-template-rows: 3fr 0.3fr; 
-    grid-template-areas: 
-       "blogmenu blogframe"
-       "footer footer"; 
-    gap: 0.5em;
-    margin: auto 8em 2em 8em;
-    align-content: center;
-    align-items: start;
-    justify-content: center;
+  display: grid; 
+  grid-template-columns: 0.6fr 2fr; 
+  grid-template-rows: 3fr 0.3fr; 
+  grid-template-areas: 
+    "blogmenu blogframe"
+    "footer footer"; 
+  gap: 0.5em;
+  margin: auto 8em 2em 8em;
+  align-content: center;
+  align-items: start;
+  justify-content: center;
  }
 
 .blogmenu {
-    grid-area: blogmenu;
-    align-items: start;
+  grid-area: blogmenu;
+  align-items: start;
+  align-self: stretch;
+  background-color: seashell;
+  border: 1px dashed #bf7398;
+  border-radius: 5px;
 }
 
 .blogframe {
-    grid_area: blogframe;
-    align-self: stretch;
+  grid_area: blogframe;
+  align-self: stretch;
+  grid-area: index_body;  
+  align-self: stretch;
+  background-color: seashell;
+  border: 1px dashed #bf7398;
+  border-radius: 5px;
 }
