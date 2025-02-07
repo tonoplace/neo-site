@@ -1,0 +1,23 @@
+.blog_grid {
+    display: grid; 
+    grid-template-columns: 0.6fr 2fr; 
+    grid-template-rows: 3fr 0.3fr; 
+    grid-template-areas: 
+       "blogmenu blogframe"
+       "footer footer"; 
+    gap: 0.5em;
+    margin: auto 8em 2em 8em;
+    align-content: center;
+    align-items: start;
+    justify-content: center;
+ }
+
+.blogmenu {
+    grid-area: blogmenu;
+    align-items: start;
+}
+
+.blogframe {
+    grid_area: blogframe;
+    align-self: stretch;
+}
