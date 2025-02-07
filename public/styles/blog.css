@@ -22,7 +22,7 @@
 }
 
 .blogframe {
-  grid_area: blogframe;
+  grid-area: blogframe;
   align-self: stretch;
   grid-area: index_body;  
   align-self: stretch;
