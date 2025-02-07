@@ -14,7 +14,6 @@
 
 .blogmenu {
   grid-area: blogmenu;
-  align-items: start;
   align-self: stretch;
   background-color: seashell;
   border: 1px dashed #bf7398;
