@@ -27,4 +27,7 @@ iframe {
   background-color: seashell;
   border: 1px dashed #bf7398;
   border-radius: 5px;
+  justify-self: stretch;
+  width: inherit;
+  height: inherit;
 }
