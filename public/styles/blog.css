@@ -32,4 +32,5 @@ iframe {
   justify-self: stretch;
   width: inherit;
   height: inherit;
+  padding-left: 20px;
 }
