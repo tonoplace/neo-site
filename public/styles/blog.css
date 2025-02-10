@@ -1,7 +1,7 @@
 .blog_grid {
   display: grid; 
   grid-template-columns: 0.5fr 2fr; 
-  grid-template-rows: 3fr 0.3fr; 
+  grid-template-rows: 6fr 0.3fr; 
   grid-template-areas: 
     "blogmenu blogframe"
     "footer footer"; 
