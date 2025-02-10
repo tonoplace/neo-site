@@ -1,7 +1,7 @@
 .blog_grid {
   display: grid; 
   grid-template-columns: 0.5fr 2fr; 
-  grid-template-rows: 0.6fr 6fr 0.3fr; 
+  grid-template-rows: 0.6fr 10fr 0.3fr; 
   grid-template-areas: 
    ". ."
     "blogmenu blogframe"
@@ -34,4 +34,5 @@ iframe {
   width: inherit;
   height: inherit;
   padding-left: 20px;
+  padding-right: 20px;
 }
