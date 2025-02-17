@@ -1,10 +1,11 @@
 .index_grid {
     display: grid; 
     grid-template-columns: 0.6fr 2fr 0.6fr; 
-    grid-template-rows: 0.6fr 3fr 0.3fr; 
+    grid-template-rows: 0.6fr 2fr 2fr 0.3fr; 
     grid-template-areas: 
       ". heading ."
-      "menu index_body ."
+      "menu index_body side_a"
+      "menu index_body side_b"
       "footer footer footer"; 
     gap: 0.5em;
     margin: auto 8em 2em 8em;
@@ -15,6 +16,15 @@
  
 .index_body { 
   grid-area: index_body;  
+  align-self: stretch;
+  background-color: seashell;
+  border: 1px dashed #bf7398;
+  border-radius: 5px;
+  padding: 5px 30px 5px 30px;
+ }
+
+ .side_a {
+  grid-area: side_a;
   align-self: stretch;
   background-color: seashell;
   border: 1px dashed #bf7398;
