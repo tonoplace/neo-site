@@ -79,7 +79,7 @@ a:hover {
  
 .menu {
   grid-area: menu;
-  align-self: stretch;
+  align-self: self-start;
   background-color: seashell;
   border: 1px dashed #bf7398;
   border-radius: 5px;

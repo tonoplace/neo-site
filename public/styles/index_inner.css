@@ -16,11 +16,11 @@
  
 .index_body { 
   grid-area: index_body;  
-  align-self: stretch;
+  align-self: self-start;
   background-color: seashell;
   border: 1px dashed #bf7398;
   border-radius: 5px;
-  padding: 5px 30px 5px 30px;
+  padding: 5px 30px 30px 30px;
  }
 
  .side_a {
@@ -35,7 +35,7 @@
  
  .side_b {
   grid-area: side_b;
-  align-self: self-end;
+  align-self: self-start;
   background-color: seashell;
   border: 1px dashed #bf7398;
   border-radius: 5px;
