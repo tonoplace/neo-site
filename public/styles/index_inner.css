@@ -25,11 +25,18 @@
 
  .side_a {
   grid-area: side_a;
-  align-self: stretch;
+  align-self: self-start;
   background-color: seashell;
   border: 1px dashed #bf7398;
   border-radius: 5px;
   padding: 5px 30px 5px 30px;
  }
  
- .side_b {}
+ .side_b {
+  grid-area: side_a;
+  align-self: self-start;
+  background-color: seashell;
+  border: 1px dashed #bf7398;
+  border-radius: 5px;
+  padding: 5px 30px 5px 30px;
+ }
