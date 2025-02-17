@@ -84,6 +84,7 @@ a:hover {
   border: 1px dashed #bf7398;
   border-radius: 5px;
   padding: 5px 30px 5px 30px;
+  max-width: 200px;
 }
 
 footer {
