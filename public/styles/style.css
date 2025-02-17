@@ -75,6 +75,7 @@ a:hover {
   align-content: center;
   align-items: center;
   align-self: stretch;
+  min-height: 140px;
 }
  
 .menu {

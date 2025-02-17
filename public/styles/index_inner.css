@@ -1,7 +1,6 @@
 .index_grid {
     display: grid; 
     grid-template-columns: 0.6fr 2fr 0.6fr; 
-    grid-template-rows: 0.6fr 1.5fr 1.5fr 0.3fr; 
     grid-template-areas: 
       ". heading ."
       "menu index_body side_a"
@@ -16,7 +15,7 @@
  
 .index_body { 
   grid-area: index_body;  
-  align-self: self-start;
+  align-self: stretch;
   background-color: seashell;
   border: 1px dashed #bf7398;
   border-radius: 5px;
