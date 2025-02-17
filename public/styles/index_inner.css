@@ -43,4 +43,5 @@
 
  .display_image {
   max-width: inherit;
+  align-self: center;
  }
