@@ -34,7 +34,7 @@
  
  .side_b {
   grid-area: side_b;
-  align-self: self-start;
+  align-self: self-end;
   background-color: seashell;
   border: 1px dashed #bf7398;
   border-radius: 5px;
