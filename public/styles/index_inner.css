@@ -29,7 +29,7 @@
   background-color: seashell;
   border: 1px dashed #bf7398;
   border-radius: 5px;
-  padding: 5px 30px 5px 30px;
+  padding: 5px 30px 30px 30px;
  }
  
  .side_b {
@@ -38,7 +38,7 @@
   background-color: seashell;
   border: 1px dashed #bf7398;
   border-radius: 5px;
-  padding: 5px 30px 5px 30px;
+  padding: 30px 30px 30px 30px;
  }
 
  .display_image {
