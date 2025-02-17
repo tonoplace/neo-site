@@ -45,4 +45,5 @@
  .display_image {
   max-width: inherit;
   align-self: center;
+  border-radius: 5px;
  }
