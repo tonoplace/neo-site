@@ -1,3 +1,4 @@
 TODO: Make a list of the colors (rgb) that you use in each section/page
 TODO: Sort the html files; separate from resources etc.
+TODO: Turn all rel-links into absolute links
     This will require some time to check through everything thoroughly (and probably a second monitor.)
