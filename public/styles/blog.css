@@ -38,3 +38,9 @@ iframe {
   padding-right: 20px;
   padding-top: 10px;
 }
+
+.blognav {
+  grid-area: blognav;
+  align-self: stretch;
+  border-radius: 5px;
+}
