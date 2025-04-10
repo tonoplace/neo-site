@@ -3,7 +3,7 @@
   grid-template-columns: 0.5fr 2fr; 
   grid-template-rows: 0.6fr 10fr 0.3fr; 
   grid-template-areas: 
-   ". ."
+   "blognav ."
     "blogmenu blogframe"
     "footer footer"; 
   gap: 0.5em;
